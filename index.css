@@ -1,0 +1,30 @@
+.reset{
+    height: 40px;
+    width: 300px;
+}
+
+.kvadrat{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid black;
+    }
+.item1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    box-sizing: border-box;
+    }
+.item2{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    box-sizing: border-box;
+}
+.item3{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    box-sizing: border-box;
+}
