@@ -1,4 +1,5 @@
 
+
 // const res = document.querySelector('.item');
 // const ceil = document.querySelector('.reset');
 //
@@ -105,15 +106,11 @@
 // slider1();
 // ______________________________________________
 
-  const res = document.querySelector('.kvadrat');
-  // const res1 = document.querySelector('.item-new');
+  const res = document.querySelector('#kvadro');
   const resetButton = document.querySelector('.reset');
-  const arr = ['kvadrat', 'item1', 'item2', 'item3'];
-  // const arr1 = [];
-  let count = 0;
-
   const counter = document.querySelector('#newId');
-
+  const arr = ['kvadrat', 'item1', 'item2', 'item3'];
+  let count = 0;
 
   function work() {
     count +=1;
@@ -135,23 +132,26 @@
     // }
 }
 
-function workout(){
-  // wert = `<button>${count}</button>`;
-  wert = `${count}`
-  counter.innerHTML = wert;
+const workout = ()=>{
+  work()
+  numberCount = `${count}`
+  counter.innerHTML = numberCount;
 }
 
 function resetResponse(){
   count = 0;
-  wert = `${count}`
-  counter.innerHTML = wert;
+  numberCount = `${count}`
+  counter.innerHTML = numberCount;
   res.className = arr[0];
 }
 
-  counter.addEventListener("click", work);
+// const autoChange = setInterval(()=>{
+//   workout()
+// }, 1000);
+
   counter.addEventListener("click", workout);
   resetButton.addEventListener("click", resetResponse);
-
+// ____________________________________________________________________________________________________________
 
 
 
