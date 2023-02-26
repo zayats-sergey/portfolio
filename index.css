@@ -1,30 +1,73 @@
-.reset{
-    height: 40px;
-    width: 300px;
+.button-stage{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.reset, .countainer{
+    height: 70px;
+    width: 200px;
+    margin-top: 30px;
 }
 
 .kvadrat{
-    height: 100px;
-    width: 100px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 72px;
+    font-family: sans-serif;
+    height: 250px;
+    width: 250px;
     background-color: white;
     box-sizing: border-box;
     border: 1px solid black;
     }
+
 .item1{
-    height: 100px;
-    width: 100px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 72px;
+    font-family: sans-serif;
+    height: 250px;
+    width: 250px;
     background-color: red;
     box-sizing: border-box;
     }
+
 .item2{
-    height: 100px;
-    width: 100px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 72px;
+    font-family: sans-serif;
+    height: 250px;
+    width: 250px;
     background-color: yellow;
     box-sizing: border-box;
 }
+
 .item3{
-    height: 100px;
-    width: 100px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 72px;
+    font-family: sans-serif;
+    height: 250px;
+    width: 250px;
     background-color: green;
     box-sizing: border-box;
+}
+
+.kvadro-wrap{
+    text-align: center;
+}
+
+.kvadro-wrap:hover{
+    color: red;
 }
