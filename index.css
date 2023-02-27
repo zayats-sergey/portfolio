@@ -25,7 +25,7 @@
     border: 1px solid black;
     }
 
-.item1{
+.item1, .item2, .item3{
     position: fixed;
     left: 50%;
     top: 50%;
@@ -34,34 +34,19 @@
     font-family: sans-serif;
     height: 250px;
     width: 250px;
-    background-color: red;
     box-sizing: border-box;
     }
 
+.item1{
+     background-color: red;
+}
+
 .item2{
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 72px;
-    font-family: sans-serif;
-    height: 250px;
-    width: 250px;
     background-color: yellow;
-    box-sizing: border-box;
 }
 
 .item3{
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 72px;
-    font-family: sans-serif;
-    height: 250px;
-    width: 250px;
     background-color: green;
-    box-sizing: border-box;
 }
 
 .kvadro-wrap{
